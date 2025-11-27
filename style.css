@@ -1,0 +1,66 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+}
+
+/* Cabeçalho */
+header {
+    background: #4a90e2;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    background: #4a90e2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3577bd;
+}
+
+/* Lista de cadastrados */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #e7e7e7;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
